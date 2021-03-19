@@ -1,0 +1,37 @@
+body{
+    background-color:darkgray;
+}
+#game{
+    width:500px;
+    height:300px;
+    background-color: darkorange;
+    position: absolute;
+}
+.player{
+    width:50px;
+    height:50px;
+    background-color: black;
+    position: absolute;
+    left:0px;
+    top:0px;
+}
+.dusman{
+    width:50px;
+    height:50px;
+    background-color: black;
+    position: absolute;
+    left: 0px;
+    top:0px;
+}
+h2{
+    margin-left: 500px;
+}
+.mermi{
+    width:25px;
+    height: 25px;
+    background-color: black;
+    position: absolute;
+    display: none;
+    left:0px;
+    top:250px;
+}

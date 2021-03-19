@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <title>Hoş geldiniz.</title>
+    
+    <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <div class="oyun-alani" id="oyun-alani">
+
+             <script>
+                 function tas_yeri_yap(){
+                    var count = 0;
+                    while(count < 64){
+                        document.getElementById("oyun-alani").innerHTML +="<div class='oyun-tas' id='oyun-tas-"+count+"' onclick='tas_sec("+count+")'></div>";                                                                  
+                        count++;
+                    }
+                    count = 0;
+                    while(count < 64){
+                        if(count%2 == 1){
+                            var idsi = "oyun-tas-"+String(count);
+                            document.getElementById(idsi).style.backgroundColor = "hotpink";
+                        }
+                        count++;
+                    }
+                 }
+                 tas_yeri_yap();
+             </script>
+        </div>
+
+        <div class="yanan-taslar">
+            <div class="beyaz" id="beyaz">
+                <h3>Kaybedilen beyaz taşlar</h3>
+            </div>
+            <div class="siyah" id="siyah">
+                <h3>Kaybedilen siyah taşlar</h3>
+
+            </div>
+        </div>
+
+
+        <script src="javascript/fonksiyonlar.js"></script>
+        <script src="javascript/tas_hareket_fonksiyonlari.js"></script>
+        <script src="javascript/oyun_kontrolleri.js"></script>
+
+    </body>
+</html>

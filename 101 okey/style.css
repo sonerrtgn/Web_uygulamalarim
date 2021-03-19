@@ -1,0 +1,182 @@
+#game{
+    width:750px;
+    height:500px;
+    background-color: aquamarine;
+    margin: auto;
+}
+#player_4{
+    float:left;
+}
+#player_3_atilan_tas{
+    width:50px;
+    height:50px;
+    background-color: brown;
+    margin-top: 60px;
+    margin-left: 125px;
+}
+#player_4_isteka{
+    width:100px;
+    height:250px;
+    background-color: blanchedalmond;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+#player_4_atilan_tas{
+    width:50px;
+    height:50px;
+    background-color: brown;
+    margin-top:10px;
+    margin-left: 125px;
+}
+#orta_alan{
+    float:left;
+}
+#player_3{
+    width:350px;
+    height:100px;
+    background-color: blanchedalmond;
+    margin-left: 50px;
+    margin-top: 10px;
+
+}
+#yer{
+    width:100px;
+    height: 50px;
+    margin-left: 175px;
+    margin-top:90px;
+}
+#okey_ne{
+    width:45px;
+    height: 50px;
+    background-color: burlywood;
+    float:left;
+    margin-left: 5px;
+}
+#kac_tas_var{
+    width:45px;
+    height:50px;
+    background-color: burlywood;
+    float:left;
+    margin-left: 5px;
+}
+#player_1_score{
+    width:100px;
+    height:25px;
+    background-color:coral;
+    margin-left: 310px;
+    margin-top:90px;
+}
+#player_1{
+    width:400px;
+    height:100px;
+    background-color: blanchedalmond;
+    margin-left: 10px;
+    margin-top:10px;
+}
+.player_1_tas{
+    width:27.5px;
+    height:44px;
+    margin-top: 4px;
+    background-color: burlywood;
+    float:left;
+    margin-left: 1px;
+}
+.player_1_tas h3{
+    margin: 0px;
+    font-size: 25px;
+    margin-top: 5px;
+    float:left;
+}
+#sol_alan{
+    float:left;
+}
+#player_2_atilan_tas{
+    width:50px;
+    height:50px;
+    background-color: brown;
+    margin-top: 60px;
+    margin-left: 20px;
+}
+#player_2_isteka{
+    width:100px;
+    height:250px;
+    background-color: blanchedalmond;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+#player_1_atilan_tas{
+    width:50px;
+    height:50px;
+    background-color: brown;
+    margin-top:10px;
+    margin-left: 20px;
+}
+
+#okey_ne h3{
+    margin: 0px;
+    font-size:30px;
+    margin-left: 10px;
+    margin-top: 7px;
+}
+#yerdeki_taslar{
+    width:100%;
+    height:35px;
+    background-color: beige;
+}
+#yerdeki_taslar_animasyon{
+    width:45px;
+    height:35px;
+    background-color: beige;
+    position: absolute;
+
+
+}
+#yerde_kac_tas_var{
+    width:100%;
+    height:15px;
+    background-color:coral;
+}
+#yerde_kac_tas_var h5{
+    margin: 0px;
+    margin-left: 15px;
+}
+
+#player_1_atilacak_tas{
+    width:45px;
+    height:35px;
+    background-color: grey;
+    position: absolute;
+    margin-top: 33px;
+    margin-left: 160px;
+    display: none;
+}
+#player_2_atilacak_tas{
+    width:45px;
+    height:35px;
+    background-color: grey;
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 40px;
+    display: none;
+
+}
+#player_3_atilacak_tas{
+    width:45px;
+    height:35px;
+    background-color: grey;
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 160px;
+    display: none;
+}
+
+#player_4_atilacak_tas{
+    width:45px;
+    height:35px;
+    background-color: grey;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 50px;
+    display: none;
+
+}

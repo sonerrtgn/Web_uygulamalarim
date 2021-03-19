@@ -1,0 +1,350 @@
+body{
+    background-color: gray;
+}
+#altin{
+    position: absolute;
+    margin-left:500px;
+    margin-top:100px;
+}
+button{
+    position: absolute;
+    border-radius: 20px;
+    border-style: double;
+    width:150px;
+    height: 40px;
+    background-color: aqua;
+    margin-left: 770px;
+    margin-top: 109px;
+}
+#saldirma{
+    position: absolute;
+    width:300px;
+    height: 100px;
+    margin-left: 550px;
+    background-color: aqua;
+    display: none;
+}
+#saldir-tamam{
+    width:75px;
+    height: 75px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: black;
+    margin-top: -105px;
+    margin-left: 220px;
+}
+#dolum{
+    width:0px;
+    height: 20px;
+    background-color: white;
+    position: absolute;
+    display: none;
+    margin-left: 550px;
+    margin-top: 60px;
+}
+#yazi{
+    margin-left: 550px;
+    margin-top: 60px;
+    position: absolute;
+    display: none;
+}
+#olustur{
+    position: absolute;
+    width:150px;
+    height:300px;
+    background-color: magenta;
+    margin-top: 150px;
+    margin-left: 300px;
+}
+#olustur-yazi{
+    position: absolute;
+    width: 100%;
+    height:20%;
+    background-color: red;
+}
+#sol{
+    position: absolute;
+    margin-top: 40%;
+    width:49%;
+    height:80%;
+    background-color: black;
+    margin:left;
+
+}
+#koy-binasi{
+    width:100%;
+    height: 25%;
+    background-color: blue;
+}
+#ciftlik{
+    position: absolute;
+    margin-top:1px;
+    width:100%;
+    height: 25%;
+    background-color: blue;
+}
+#yonetim{
+    position: absolute;
+    margin-top:85%;
+    width:100%;
+    height: 25%;
+    background-color: blue;
+}
+#fabrika{
+    position: absolute;
+    margin-top:168%;
+    width:100%;
+    height: 25%;
+    background-color: blue;
+}
+#kisla{
+    width:100%;
+    height: 25%;
+    background-color: blue;
+}
+#cephane{
+    position: absolute;
+    margin-top:1px;
+    width:100%;
+    height: 25%;
+    background-color: blue;
+}
+#tank{
+    position: absolute;
+    margin-top:85%;
+    width:100%;
+    height: 25%;
+    background-color: blue;
+}
+#hava-araci{
+    position: absolute;
+    margin-top:168%;
+    width:100%;
+    height: 25%;
+    background-color: blue;
+}
+#sag{
+    position: absolute;
+    margin-top: 40%;
+    width:49%;
+    height:80%;
+    background-color: black;
+    margin-left:51%;
+
+}
+#oyun{
+    position: absolute;
+    width:454px;
+    height:303px;
+    background-color: magenta;
+    margin-top: 150px;
+    margin-left: 460px;
+}
+#oyun-1-0{
+    width:90px;
+    height: 75px;
+    background-color: blue;
+}
+#oyun-1-1{
+    width:90px;
+    height: 75px;
+    background-color: blue;
+    position: absolute;
+    margin-left: 91px;
+    margin-top: -75px;
+}
+#oyun-1-2{
+    width:90px;
+    height: 75px;
+    background-color: blue;
+    position: absolute;
+    margin-left: 182px;
+    margin-top: -75px;
+}
+#oyun-1-3{
+    width:90px;
+    height: 75px;
+    background-color: blue;
+    position: absolute;
+    margin-left: 273px;
+    margin-top: -75px;
+}
+#oyun-1-4{
+    width:90px;
+    height: 75px;
+    background-color: blue;
+    position: absolute;
+    margin-left: 364px;
+    margin-top: -75px;
+}
+#oyun-2-0{
+    width:90px;
+    height: 75px;
+    background-color: blue;
+    margin-top:1px;
+}
+#oyun-2-1{
+    width:90px;
+    height: 75px;
+    background-color: blue;
+    position: absolute;
+    margin-left: 91px;
+    margin-top: -75px;
+}
+#oyun-2-2{
+    width:90px;
+    height: 75px;
+    background-color: blue;
+    position: absolute;
+    margin-left: 182px;
+    margin-top: -75px;
+}
+#oyun-2-3{
+    width:90px;
+    height: 75px;
+    background-color: blue;
+    position: absolute;
+    margin-left: 273px;
+    margin-top: -75px;
+}
+#oyun-2-4{
+    width:90px;
+    height: 75px;
+    background-color: blue;
+    position: absolute;
+    margin-left: 364px;
+    margin-top: -75px;
+}
+#oyun-3-0{
+    width:90px;
+    height: 75px;
+    background-color: blue;
+    margin-top:1px;
+}
+#oyun-3-1{
+    width:90px;
+    height: 75px;
+    background-color: blue;
+    position: absolute;
+    margin-left: 91px;
+    margin-top: -75px;
+}
+#oyun-3-2{
+    width:90px;
+    height: 75px;
+    background-color: blue;
+    position: absolute;
+    margin-left: 182px;
+    margin-top: -75px;
+}
+#oyun-3-3{
+    width:90px;
+    height: 75px;
+    background-color: blue;
+    position: absolute;
+    margin-left: 273px;
+    margin-top: -75px;
+}
+#oyun-3-4{
+    width:90px;
+    height: 75px;
+    background-color: blue;
+    position: absolute;
+    margin-left: 364px;
+    margin-top: -75px;
+}
+#oyun-4-0{
+    width:90px;
+    height: 75px;
+    background-color: blue;
+    margin-top:1px;
+}
+#oyun-4-1{
+    width:90px;
+    height: 75px;
+    background-color: blue;
+    position: absolute;
+    margin-left: 91px;
+    margin-top: -75px;
+}
+#oyun-4-2{
+    width:90px;
+    height: 75px;
+    background-color: blue;
+    position: absolute;
+    margin-left: 182px;
+    margin-top: -75px;
+}
+#oyun-4-3{
+    width:90px;
+    height: 75px;
+    background-color: blue;
+    position: absolute;
+    margin-left: 273px;
+    margin-top: -75px;
+}
+#oyun-4-4{
+    width:90px;
+    height: 75px;
+    background-color: blue;
+    position: absolute;
+    margin-left: 364px;
+    margin-top: -75px;
+}
+
+#oyuncu-bilgi{
+    position: absolute;
+    width:150px;
+    height: 303px;
+    margin-left:924px;
+    margin-top: 150px;
+    background-color: darkolivegreen;
+}
+#oyuncu-yazi{
+    margin-top: 1px;
+    width: 95%;
+    height:14% ;
+    border-style: double;
+    border-color:white;
+}
+#oyuncu-level{
+    margin-top: 2px;
+    width: 95%;
+    height:14% ;
+    border-style: double;
+    border-color:white;
+}
+#oyuncu-para{
+    margin-top: 2px;
+    width: 95%;
+    height:14% ;
+    border-style: double;
+    border-color:white;
+}
+#oyuncu-saldiri{
+    margin-top: 2px;
+    width: 95%;
+    height:14% ;
+    border-style: double;
+    border-color:white;
+}
+#oyuncu-kazanma{
+    margin-top: 2px;
+    width: 95%;
+    height:14% ;
+    border-style: double;
+    border-color:white;
+}
+#oyuncu-yapi{
+    margin-top: 2px;
+    width: 95%;
+    height:14% ;
+    border-style: double;
+    border-color:white;
+}
+h5{
+    margin-top:0px;
+}
+h4{
+    margin-top: 0px;
+}

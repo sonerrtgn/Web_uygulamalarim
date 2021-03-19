@@ -1,0 +1,1 @@
+Sayfa benim bilgisayar görüntüme göre hazırlandığı için farklı boyutlu bilgisayarlarda mouse konumundaki hatadan dolayı mouse ile haraket edilen çubukta sapmalar olabilir.

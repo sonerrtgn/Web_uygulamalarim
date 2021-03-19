@@ -1,0 +1,123 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="stil.css" />
+        <script type="text/javascript" src="oyun.js" ></script>
+    </head>
+    <body>
+        <div id="altin">
+            <h2 style="color:gold;">Altın: 500</h2>
+        </div>
+
+        <div id="saldir">
+            <button onclick="saldir()"><h4 style="margin-top:8.5px; color:black;">Farklı köylere saldır.</h4></button>
+        </div>
+        <div id="saldirma" >
+            <div id="kazanma-yuzdesi"><h4>Kazanma yuzdeniz: 0</h4></div>
+            <div id="kazanc"><h4>Kazanırsanız geliriniz: </h4></div>
+            <div id="kayip"><h4>Kaybederseniz zararınız: </h4></div>
+            <button id="saldir-tamam" onclick="saldiri_gerceklestir()"><h2 style="color:white; font-size: 18px; margin-top: 25px; margin-left: 2px;">SALDIR</h2></button>
+        </div>
+        <div id="saldir-efekt">
+            <div id="dolum"></div>
+            <h4 id="yazi">Savaş yapılıyor...</h4>
+        </div>
+
+        <div id="olustur">
+            
+            <div id="olustur-yazi">
+                <h4 style="margin-top:0px;">Köyünüze eklemek istediğiniz yapıyı seçiniz</h4>
+            </div>
+
+            <div id="sol">
+
+                <div id="koy-binasi" onclick="bina()">
+                    <img width="100%" height="100%" src="bina.png" title="500 altın karşılığında satılır.Saniyede 7 altın üretir"/>
+                </div>
+                
+                <div id="ciftlik" onclick="ciftlik()">
+                    <img width="100%" height="100%" src="ciftlik.png" title="700 altın karılığında satılır. Saniyede 8 altın üretir."/>
+                </div>
+
+                <div id="yonetim" onclick="yonetim()">
+                    <img width="100%" height="100%" src="yonetim.png" title="1600 altın karşığında satılır. Saniyede 12 altın üretir."/>
+
+                </div>
+
+                <div id="fabrika" onclick="fabrika()">
+                    <img width="100%" height="100%" src="fabrika.png" title="4000 altın karşılığında satılır. Saniyede 20 altın üretir."/>
+
+                </div>
+
+            </div>
+            
+            <div id="sag">
+                <div id="kisla" onclick="kisla()">
+                    <img width="100%" height="100%" src="kisla.png" title="7000 altın karşılığında satılır. Saniyede 25 altın üretir."/>
+                </div>
+                
+                <div id="cephane" onclick="cephane()"> 
+                    <img width="100%" height="100%" src="cephane.png" title="12000 altın karşılığında satılır. Saniyede 30 altın üretir."/>
+                </div>
+
+                <div id="tank" onclick="tank()">
+                    <img width="100%" height="100%" src="tank.png" title="17000 altın karşılığında satılır. Saniyede 40 altın üretir."/>
+
+                </div>
+
+                <div id="hava-araci" onclick="ucak()">
+                    <img width="100%" height="100%" src="ucak.png" title="30000 altın karşılığında satılır. saniyede 70 altın üretir."/>
+
+                </div>
+            </div>
+
+        </div>
+
+        <div id="oyun">
+
+            <div id="oyun-1-0" onclick="oyun_1_0()"></div>
+            <div id="oyun-1-1" onclick="oyun_1_1()"></div>
+            <div id="oyun-1-2" onclick="oyun_1_2()"></div>
+            <div id="oyun-1-3" onclick="oyun_1_3()"></div>
+            <div id="oyun-1-4" onclick="oyun_1_4()"></div>
+
+            <div id="oyun-2-0" onclick="oyun_2_0()"></div>
+            <div id="oyun-2-1" onclick="oyun_2_1()"></div>
+            <div id="oyun-2-2" onclick="oyun_2_2()"></div>
+            <div id="oyun-2-3" onclick="oyun_2_3()"></div>
+            <div id="oyun-2-4" onclick="oyun_2_4()"></div>
+            
+            <div id="oyun-3-0" onclick="oyun_3_0()"></div>
+            <div id="oyun-3-1" onclick="oyun_3_1()"></div>
+            <div id="oyun-3-2" onclick="oyun_3_2()"></div>
+            <div id="oyun-3-3" onclick="oyun_3_3()"></div>
+            <div id="oyun-3-4" onclick="oyun_3_4()"></div>
+
+            <div id="oyun-4-0" onclick="oyun_4_0()"></div>
+            <div id="oyun-4-1" onclick="oyun_4_1()"></div>
+            <div id="oyun-4-2" onclick="oyun_4_2()"></div>
+            <div id="oyun-4-3" onclick="oyun_4_3()"></div>
+            <div id="oyun-4-4" onclick="oyun_4_4()"></div>
+
+
+
+        </div>
+        
+        <div id="oyuncu-bilgi">
+
+            <div id="oyuncu-yazi"><h5>Saniyede üretilen altın miktarı:0 </h5></div>
+
+            <div id="oyuncu-level"><h4>Köyün şuanki leveli: 0 </h4></div>
+
+            <div id="oyuncu-para"><h4>Kazanılan tolam para: 0</h4></div>
+
+            <div id="oyuncu-saldiri"><h4>Saldırı kazanma yüzdesi: 0</h4></h></div>
+
+            <div id="oyuncu-kazanma"><h4>Kazanılan toplam saldırı:0</h4></div>
+
+            <div id="oyuncu-yapi"><h4>Kurulan toplam yapi:0</h4></div>
+
+
+
+        </div>
+    </body>
+</html>

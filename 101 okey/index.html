@@ -1,0 +1,86 @@
+<html>
+    <head>
+        <title>Okey oynamaya hoş geldiniz.</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="game">
+            <div id="player_4">
+                <div id="player_3_atilan_tas">
+                    
+                </div>
+                <div id="player_4_isteka" onclick="tas_cekme(4)">
+                    <div id="player_4_atilacak_tas">
+                    </div>
+                    
+                </div>
+                <div id="player_4_atilan_tas">
+
+                </div>
+            </div>
+            <div id="orta_alan">
+                <div id="player_3" onclick="tas_cekme(3)">
+                    <div id="player_3_atilacak_tas">
+                    </div>
+                </div>
+                <div id="yer">
+                    <div id="okey_ne">
+
+                    </div>
+                    <div id="kac_tas_var">
+                        <div id="yerdeki_taslar_animasyon" onclick="tas_cekme(1)"></div>
+                        <div id="yerdeki_taslar">
+
+                            
+                        </div>
+                        <div id="yerde_kac_tas_var">
+
+                        </div>
+                    </div>
+                </div>
+                <div id="player_1_score">
+
+                </div>
+                <div id="player_1">
+                    <div id="player_1_atilacak_tas">
+                    </div>
+                    <script>
+                        var count = 0;
+                        //document.getElementById("player_1").innerHTML += "";
+                        while(count < 28){
+                            document.getElementById("player_1").innerHTML+="<div class='player_1_tas' id='player_"+count+"_tas' onclick='tas_degis("+count+")'></div>";                                         
+                            count++;
+                        }
+                    </script>
+                    
+                </div>
+            </div>
+            <div id="sol_alan">
+                <div id="player_2_atilan_tas">
+                    
+                </div>
+                <div id="player_2_isteka" onclick="tas_cekme(2)">
+
+                    <div id="player_2_atilacak_tas">
+                    </div>
+
+                </div>
+                <div id="player_1_atilan_tas" onclick="tas_atma(1)">
+
+                </div>
+            </div>
+        </div>
+        
+    </body>
+    <script src="tas_animasyonlari.js"></script>
+    <script src="bilgisayara_okey_oynatma.js"></script>
+    <script src="tas_duzenleme.js"></script>
+
+    <script src="kodlar.js"></script>
+
+    <script src="oyunu_baslat.js"></script>
+
+    <script src="tas_yeri_degisim.js"></script>
+    
+
+</html>
